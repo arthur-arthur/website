@@ -76,13 +76,6 @@ disqusShortname = "yourdiscussshortname"
     icon = "fab fa-linkedin"
     weight = 4
     url = "https://www.linkedin.com/in/arthur-leloup-4a15081b3"
-[[params.social]]
-    name = "RSS"
-    icon = "fas fa-rss"
-    weight = 6
-    url = "https://myhugosite.com/index.xml"
-    rel = "alternate"
-    type = "application/rss+xml"
 
 
 [languages]
@@ -97,14 +90,19 @@ disqusShortname = "yourdiscussshortname"
             url = "about/"
 
             [[languages.en.menu.main]]
-            name = "Blog"
+            name = "Resume"
             weight = 2
-            url = "posts/"
+            url = "static/CV_Arthur_Leloup.pdf"
 
             [[languages.en.menu.main]]
-            name = "Projects"
+            name = "Publications"
             weight = 3
-            url = "projects/"
+            url = "publications/"
+            
+            [[languages.en.menu.main]]
+            name = "Master's thesis"
+            weight = 4
+            url = "https://arthur-arthur.github.io/thesis/index.html"
 
             [[languages.en.menu.main]]
             name = "Contact me"
