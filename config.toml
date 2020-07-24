@@ -103,8 +103,3 @@ disqusShortname = "yourdiscussshortname"
             name = "Master's thesis"
             weight = 4
             url = "https://arthur-arthur.github.io/thesis/index.html"
-
-            [[languages.en.menu.main]]
-            name = "Contact me"
-            weight = 5
-            url = "contact/"
