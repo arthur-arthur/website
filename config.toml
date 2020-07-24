@@ -32,7 +32,7 @@ disqusShortname = "yourdiscussshortname"
     since = 2020
 
     # Git Commit in Footer, uncomment the line below to enable it.
-    commit = "https://github.com/luizdepra/hugo-coder/tree/"
+    #commit = "https://github.com/luizdepra/hugo-coder/tree/"
 
     rtl = false
 
@@ -92,7 +92,7 @@ disqusShortname = "yourdiscussshortname"
             [[languages.en.menu.main]]
             name = "Resume"
             weight = 2
-            url = "static/CV_Arthur_Leloup.pdf"
+            url = "files/CV_Arthur_Leloup.pdf"
 
             [[languages.en.menu.main]]
             name = "Publications"
@@ -100,6 +100,6 @@ disqusShortname = "yourdiscussshortname"
             url = "publications/"
             
             [[languages.en.menu.main]]
-            name = "Master's thesis"
+            name = "Master's thesis in Computational statistics"
             weight = 4
-            url = "https://arthur-arthur.github.io/thesis/index.html"
+            url = "thesis/Thesis_Arthur_Leloup.pdf"
